@@ -1,0 +1,173 @@
+
+    
+<!-- html * {
+    color: rgb(13, 128, 182);
+    margin: 0;
+    padding: 0;
+}
+
+#corpo {
+    background-image: ./url("img/sj.jpg");
+    <img src="./imagens/sj.png" alt="Imagem aérea de São José">
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#principal {
+    text-align: center;
+}
+
+.subtitulo {
+        /* COR DA FONTE */
+        color: white;
+        /* ALINHAMENTO CENTRALIZADO DO TEXTO */
+        text-align: center;
+        /* FAMÍLIA TIPOGRÁFICA */
+        font-family: 'Lobster', cursive;
+        /* TAMANHO DA FONTE */
+        font-size: 32px;
+        /* ESTILO DA FONTE */
+        font-style: oblique;
+        /* ESPESSURA DA FONTE */
+        font-weight: 200;
+        /* ESPAÇAMENTO */
+        padding: 10px;
+}
+
+#rodape {
+    text-align: center;
+    padding: 20px;
+}
+
+.icones {
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+}
+    </style>
+</head>
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conheça São José</title>
+    <!-- Favicon(s)-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <meta name="description" content="Um ambiente criado para apresentar a cidade de São José, loalizado em Santa Catarina.">
+    <meta name="author" content="Micheli Pinheiro">
+    <meta name="author" content="Willian Sant Anna">
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Domine&family=Lora:ital,wght@1,500&display=swap');
+
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        box-shadow: none;
+        }
+        
+        body {
+        font-family: 'Lora', cursive;
+        font-weight: 800;
+        text-align: center;
+        margin: 0;
+        }
+
+        .cabecalho{
+        background-image: url("img/background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        }
+
+        h1{
+        background-color: whitesmoke;
+        color: rgb(87, 73, 209);
+        font-family: 'Lora';
+        font-size: 30px;
+        font-weight: 200;
+        padding: 10px;
+        text-align: center;
+        }
+
+        .resumo{
+        font-family: Lora, sans-serif;
+        font-size: 20px;
+        font-style: oblique;
+        padding: 20px;
+        text-align: center;
+        }
+
+        .video{
+        padding: 20px;
+        }
+
+        .curiosidades{
+        font-family: Domine, sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        margin: 20px 0px;
+        text-align: center;
+        color: rgb(157, 197, 235);
+        font-size: 25px;
+        }
+
+        span{
+          background-color: rgba(255, 255, 255, 0.26);
+          font-family: Domine, bold;
+          font-size: 30px;
+          border-radius: auto;
+        }
+
+        .icons{
+          margin: 20px;
+          width: 70px;
+          height: 70px;
+        }
+    </style>
+</head>
+
+<body>
+          
+    <div class="cabecalho">
+      <h1><strong>Conheça São José</strong></h1>
+      <section class="resumo"><p>O município de São José, localizado na Grande Florianópolis, é o quarto mais antigo de Santa Catarina.<br>
+        Foi colonizado em 26 de outubro de 1750, por 182 casais açorianos, oriundos das Ilhas do Pico, Terceira, São Jorge, Faial, Graciosa e São Miguel.<br>
+        Em 1829, recebeu o primeiro núcleo de colonização alemã do Estado.</p></section>
+        
+    <div class="video">
+        <main id= "principal"><iframe width="1280" height="720" src="https://www.youtube.com/embed/Fv5mZtgJKBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></main>
+    </div>
+        <div class="curiosidades">
+            <h2 class="subtitulo"><span>Curiosidades</span></h2>
+
+            <div class="curiosidades"> 
+            <ul>
+                <li>Possui o quarto melhor IDHM (Índice de Desenvolvimento Humano Municipal) entre todas as cidades de SC. </li>
+                <li>Possui o quinto maior PIB (Produto Interno Bruto) entre os municípios catarinenses.</li>
+                <li>É a cidade que mais gerou empregos nos últimos 3 anos, representando 12% do total de oportunidades do estado inteiro.</li>
+                <li>Abriga a única escola de oleiros da América Latina, a Escola de Oleiros Joaquim Antônio de Medeiros.</li>
+            </ul>
+            </div>
+        </div>
+        
+        <div class="rodapé">
+            <a href="https://www.instagram.com/prefeituradesaojose/"> <img src="img/instagram.png" class="icons"></a>
+            <a href="https://youtu.be/2K_LBEvEiOc"> <img src="img/youtube.png" class="icons"></a>
+            <a href="https://www.facebook.com/prefeituradesaojose"> <img src="img/facebook.png" class="icons"></a>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- Selecione uma imagem de background da sua cidade e coloque como imagem de fundo do seu body.
+Faça um Header bem bacana com uma cor da sua escolha. Esse header precisa ter de 10 a 20 píxels de padding vertical. Dentro dele estará um título com o nome da sua cidade!
+No seu main, coloque um pequeno parágrafo falando da sua cidade. Destaque em negrito os pontos mais importantes.
+No formulário a seguir, insira seu nome, e a URL o repositório remoto do projeto ATÉ 15/11/2021 até 23:59. -->
